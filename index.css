@@ -1,0 +1,219 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.small{
+    width: 20px;
+}
+.fixed{
+    position:static;
+}
+.txtTitle{
+    font-family: "Agbalumo" ;
+}
+.fecha{
+    margin-right: 20px;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+.separacion{
+    width: 500px;
+}
+.card-header{
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thead{
+    color: white;
+}
+
+
+.table{
+    position: relative;
+    border: 1px solid white ;
+    height: max-content;
+}
+.Seccion{
+    width: 54%;
+    max-height: 525px;
+      
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.overflow{
+    max-height: 535px;
+    overflow-y: scroll;
+}
+.overflow::-webkit-scrollbar{
+    width: 15px;
+    background: rgba(0, 0, 0, 0.053);
+}
+.overflow::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar{
+    width: 15px;
+    background: rgba(0, 0, 0, 0.46);
+}
+body::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 5px;
+    color: white;
+}
+
+.card-E{
+    background:linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(25, 157, 228, 0) );
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid ;
+
+}
+#negro, .negro{
+    color: #000;
+}
+
+.input-container{
+    margin: 25px 0 25px 0;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.results-container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.input-container input[type="search"]{
+    width: 300px;
+    height: 30px;
+    border: none;
+    padding: 12px 20;
+    background-color: rgb(205, 205, 205);
+    color: #000;
+    border-radius: 5px;
+}
+.table tr:nth-child(even){
+    background-color: rgb(193, 190, 185);
+}
+.bold{
+    color: red;
+    font-weight: bold;
+}
+.form{
+    width: 100%;
+}
+.card-body{
+    width: 100%;
+}
+
+#fe{
+justify-content: space-around;
+width: 100%;
+ }
+ .cuerpo{
+    max-height: 450px;
+    overflow-y: scroll;
+ }
+ .m-l{
+    margin-left: 10px;
+    background-color: rgb(118, 19, 151);
+ }
+.w100{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    margin: 0;
+
+}
+.capsula{
+    padding: 10px;
+}
+.capsula1{
+    padding: 5px;
+    background-color: rgb(75, 98, 229);
+    border-radius: 4px;
+}
+.capsula2{
+    padding: 5px;
+    background-color: rgb(161, 202, 243);
+    border-radius: 4px;
+}
+
+
+.carts {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 20px;
+  }
+  
+  .carts .red {
+    background-color: #f43f5e;
+  }
+  
+  .carts .blue {
+    background-color: #3b82f6;
+  }
+  
+  .carts .green {
+    background-color: #22c55e;
+  }
+  
+  .carts .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .carts .cart p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .carts .cart p.second-text {
+    font-size: .7em;
+  }
+  
+  .carts .cart:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .carts:hover > .cart:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+  .rigth{
+    margin-right: 10px;
+  }
+
+ 
+  /* estructura de fichas */
+
